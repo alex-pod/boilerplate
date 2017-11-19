@@ -21,7 +21,7 @@ class User extends ActiveRecord implements IdentityInterface, AuthRoleModelInter
 	 */
 	public static function tableName()
 	{
-		return 'bms_users';
+		return 'users';
 	}
 
     private static $users = [
