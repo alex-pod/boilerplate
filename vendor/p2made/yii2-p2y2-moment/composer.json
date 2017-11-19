@@ -1,0 +1,38 @@
+{
+	"name": "p2made/yii2-p2y2-moment",
+	"description": "moment.js & moment-timezone.js as Yii2 assets",
+	"type": "yii2-extension",
+	"keywords": [
+		"yii2", "yii", "extension", "PHP", "asset", "bundle",
+		"moment.js", "time", "moment", "timezone", "moment-timezone"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pedro Plowman",
+			"email": "p2opensource@gmail.com",
+			"homepage": "https://github.com/p2made"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/p2made/yii2-p2y2-timezones/issues?state=open",
+		"source": "https://github.com/p2made/yii2-p2y2-timezones"
+	},
+
+	"version": "2.0.0",
+	"minimum-stability": "dev",
+
+	"require": {
+		"php": ">=5.4.0",
+		"yiisoft/yii2": "^2.0",
+		"p2made/yii2-p2y2-base": "^1.1"
+	},
+	"require-dev": {
+	},
+
+	"autoload": {
+		"psr-4": {
+			"p2m\\": ""
+		}
+	}
+}

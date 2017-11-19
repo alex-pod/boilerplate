@@ -1,0 +1,35 @@
+{
+	"name": "p2made/yii2-p2y2-things-demo",
+	"description": "Not really a theme. A set of pages to demonstrate p2made/yii2-p2y2-things, bundled as a theme.",
+	"type": "yii2-extension",
+	"keywords": [
+		"yii2", "yii", "extension", "PHP",
+		"asset", "bundle", "theme",
+		"frontend", "admin", "ui", "user-interface", "theme"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Pedro Plowman",
+			"email": "p2opensource@gmail.com",
+			"homepage": "https://github.com/p2made"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/p2made/yii2-p2y2-things-demo/issues?state=open",
+		"source": "https://github.com/p2made/yii2-p2y2-things-demo"
+	},
+
+	"version": "2.8.0",
+	"minimum-stability": "dev",
+
+	"require": {
+		"p2made/yii2-p2y2-things": "^2.8"
+	},
+
+	"autoload": {
+		"psr-4": {
+			"p2m\\demo\\": ""
+		}
+	}
+}
